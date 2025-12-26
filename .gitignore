@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE / OS metadata
+.vscode/
+*.DS_Store
+Thumbs.db
+
+# Logs and outputs
+logs/
+*.log
+
+# Model artifacts
+models/
+checkpoints/
+outputs/
+
+# Large datasets (keep README only)
+data/ml-25m/*.csv
+data/ml-25m/*.dat
+!data/ml-25m/README.txt
+
+# Misc
+*.tmp
+*.swp
